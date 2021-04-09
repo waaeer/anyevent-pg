@@ -1,0 +1,11 @@
+Changes
+examples/pg_killer.pl
+examples/listen.pl
+lib/AnyEvent/Pg.pm
+lib/AnyEvent/Pg/Pool.pm
+lib/Method/WeakCallback.pm
+LICENSE
+Makefile.PL
+MANIFEST
+README
+t/AnyEvent-Pg.t

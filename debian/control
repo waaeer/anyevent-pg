@@ -1,0 +1,14 @@
+Source: libanyevent-pg-perl
+Section: perl
+Priority: optional
+Maintainer: Ivan Panchenko <wao@mail.ru>
+Build-Depends: debhelper (>= 9), libpg-pq-perl
+Build-Depends-Indep: perl
+Standards-Version: 3.9.8
+Homepage: https://metacpan.org/release/ORM-Easy
+
+Package: libpg-pq-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}, 
+  libpg-pq-perl, libanyevent-perl
+Description: AnyEvent::Pg - An asynchronous event-driven PostgreSQL client library
