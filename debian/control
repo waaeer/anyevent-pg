@@ -7,7 +7,7 @@ Build-Depends-Indep: perl
 Standards-Version: 3.9.8
 Homepage: https://metacpan.org/release/ORM-Easy
 
-Package: libpg-pq-perl
+Package: libanyevent-pg-perl
 Architecture: all
 Depends: ${misc:Depends}, ${perl:Depends}, 
   libpg-pq-perl, libanyevent-perl

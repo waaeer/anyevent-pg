@@ -15,6 +15,6 @@ WriteMakefile( NAME          => 'AnyEvent::Pg',
                VERSION_FROM  => 'lib/AnyEvent/Pg.pm',
                PREREQ_PM     => \%prereq_pm,
                ABSTRACT_FROM => 'lib/AnyEvent/Pg.pm',
-               AUTHOR        => 'Salvador Fandino <sfandino@yahoo.com>'
+               AUTHOR        => 'Salvador Fandino <sfandino@yahoo.com>',
 			   NO_META       => 1,
              );
